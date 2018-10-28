@@ -1,0 +1,198 @@
+/*
+  main background         #622599
+  secondary background    #745888
+  content background      #e2e2e2
+*/
+
+/* HEADERS */
+
+/*
+.entry-content h2{
+	color: #ffffff !important;
+  padding: 10px 70px; 
+  background-color: #745888;
+  width: calc(100% - 100px);
+  margin: 0 0 0 100px;
+}
+
+.entry-content h4{
+	text-transform: uppercase;
+  border-bottom: 5px double #622599;
+}
+*/
+
+/* GENERAL STYLES */
+strong{
+	color: #622599;
+}
+
+/* UNIT PANELS */
+
+.old-style .sections{
+  margin: 20px;
+  text-align: center;
+  width: 1000px;
+}
+
+.old-style .section{
+  color: #ffffff;
+  display: inline-block;
+  margin: 5px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.old-style .section.full-width{
+  width: 90%;
+}
+
+.old-style .section p{
+	margin: 0;
+}
+
+.old-style .section .title{
+  font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+.old-style .section .slogan{
+  background-color: #e2e2e2;
+	color: #622599;
+  font-style: italic;
+  padding: 15px;
+}
+
+/* UNIT DESCRIPTION PANELS */
+
+.extended-section .title{
+  margin-top: 30px;
+	width: 25%;
+  display: inline-block;
+  color: #ffffff;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+.extended-section div:last-of-type{
+	background-color: #e2e2e2;
+  padding: 5px 15px !important;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* EDM STRUCTURES */
+
+.entry-content .edm-box .textwidget{
+	background-color: #e2e2e2;
+  padding: 20px;
+}
+
+.entry-content .edm-box h3{
+	text-align: center;
+  background-color: #745888;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.entry-content .edm-box.red h3{
+  background-color: #e23d28;
+}
+
+.entry-content .edm-box h4{
+  padding: 15px;
+  font-weight: bold;
+  color: #745888;
+}
+
+.entry-content .edm-box h5{
+  padding: 5px 15px;
+  color: #a66bdb;
+}
+
+.entry-content .edm-box.italic p{
+  font-style: italic;
+  color: #622599;
+}
+
+.entry-content .edm-box.as-link p{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.entry-content .edm-box p{
+  color: #000000;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.entry-content .edm-box.red p{
+  color: #e23d28;
+}
+
+/* FOOTER */
+
+.edm-footer{
+	padding: 5px;
+  text-align: center;
+}
+
+.edm-footer > div{
+	width: 30%;
+  margin: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.edm-footer div a{
+	display: inherit;
+}
+
+/* CORPORATE COLORS */
+
+h4.header-colored{
+  color: #ffffff !important;
+  padding: 5px 10px;
+}
+
+h4.header-green{
+  background-color: #aaba0a;
+}
+
+h4.header-orange{
+  background-color: #dd7500;
+}
+
+h4.header-purple{
+  background-color: #622599;
+}
+
+h4.header-pink{
+  background-color: #FF3399;
+}
+
+/* UNIT COLORS */
+
+.castores{
+	background-color: #3399ff;
+}
+
+.manada{
+	background-color: #edc103;
+}
+
+.tropa{
+	background-color: #3d8e33;
+}
+
+.esculta{
+	background-color: #b57434;
+}
+
+.clan{
+	background-color: #e23d28;
+}
+
+.scouters{
+	background-color: #622599;
+}
